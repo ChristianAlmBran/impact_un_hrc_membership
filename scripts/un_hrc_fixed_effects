@@ -1,0 +1,22 @@
+# Loading packages
+pacman::p_load(tidyverse, performance, plm)
+
+# Fixed Effects Model
+fe_model_time <- plm(
+  civil_liberties_index ~ membership + world_civil_liberties_index +
+    president_council + target_special_rapporteur + n_rat_hr_treaties +
+    regional_civil_liberties_index + gdp_per_capita_ppp + total_conflict +
+    mass_mob + democracy_index, 
+  data = refined_df,
+  index = c("countries", "year"),
+  model = "within"
+)
+
+## Model's summary
+summary(fe_model_time)
+
+## Checking for multicollinearity
+check_collinearity(fe_model_time)
+
+# Kappa test
+kappa(model.matrix(fe_model_time))
