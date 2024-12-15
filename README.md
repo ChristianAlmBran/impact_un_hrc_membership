@@ -7,6 +7,6 @@
 ## Visão Geral
 Este repositório contém os dados e informações necessários para reproduzir a pesquisa apresentada no artigo: Tornar-se membro do CDH afeta o desempenho em direitos humanos? Uma análise de painel.
 ## Dados
-O único arquivo de dados necessário para reproduzir os modelos de efeitos fixos é o “refined_df.csv”. Os outros arquivos de dados foram adicionados para facilitar a reprodutibilidade das informações no conjunto de dados principal.
+Para reproduzir os modelos de efeitos fixos, são necessários dois conjuntos de dados: “refined_df.csv” e “did_hrc_un_lag.csv”. Os outros arquivos de dados foram adicionados para facilitar a reprodutibilidade das informações no conjunto de dados principal.
 ## Súmario dos modelos e gráfico
 A pasta “summary_models_and_graph” inclui a tabela com o resumo dos modelos (Figura 1 do artigo) e o gráfico que evidencia a ausência de estacionariedade no conjunto de dados.
