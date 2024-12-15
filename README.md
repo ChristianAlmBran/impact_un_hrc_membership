@@ -2,7 +2,7 @@
 
 #### Prof. Me. Christian de Almeida Brandão - Uninassau. Doutorando na Universidade Federal de Pernambuco.
 
-#### Prof. Bac. Midiã Conceição Cavalcante Silva. Mestranda na Universidade Federal de Pernambuco.
+#### Bac. Midiã Conceição Cavalcante Silva. Mestranda na Universidade Federal de Pernambuco.
 
 ## Visão Geral
 Este repositório contém os dados e informações necessários para reproduzir a pesquisa apresentada no artigo: Tornar-se membro do CDH afeta o desempenho em direitos humanos? Uma análise de painel.
