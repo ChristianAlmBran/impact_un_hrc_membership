@@ -159,11 +159,11 @@ summary(fe_model_lag)
 summary_table_all_models <- stargazer(fe_model, fe_model_rbst, fe_model_lag, fe_model_lag_rbst, type = "text", 
                                       title = "Comparison of Fixed Effects Models", 
                                       column.labels = c("FE Model", "FE Model with Robust", "FE Model Lag",
-                                                        "FE Model with Robust Lag"), digits = 5) 
+                                                        "FE Model with Robust Lag"), digits = 3) 
 
 # Combining the summaries of the four models to export
 stargazer(fe_model, fe_model_rbst, fe_model_lag, fe_model_lag_rbst, type = "html", 
           out = "Comparison of Fixed Effects Models.html", 
           title = "Regression Models Summary", column.labels = c("FE Model", "FE Model with Robust",
                                                                  "FE Model Lag", "FE Model with Robust Lag"),
-          digits = 5)
+          digits = 3)
